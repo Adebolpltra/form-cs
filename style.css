@@ -1,0 +1,87 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.construct{
+    /* width: 50%; */
+    padding: auto;
+}
+
+/* HEADER */
+.h1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+}
+
+/* FORM-INPUT */
+.form-input{
+    display: flex;
+    justify-content: center;
+    /* width: 30px auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/* CONTAINERS */
+.container-1{
+    /* border: 2px solid; */
+    padding: 15px;
+    /* width: 30%; */
+    height: 450px;
+    background: rgba(64, 2, 64, 0.51);
+}
+.h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    font-size: 25px;
+    color: white;
+    font-weight: 100;
+}
+.section3{
+    border: 0.5px solid;
+    padding: 8px;
+    margin: 15px;
+    background-color: white;
+     
+}
+input{
+    border: none;
+    width: 280px;
+    
+}
+input:hover{
+    border: none;
+}
+.icon{
+    padding-right: 3px;
+}
+
+/* A TAG */
+.button{
+    display: flex;
+    justify-content: center;   
+}
+.link1{
+    border: none;
+    padding: 8px 30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(248, 72, 122);
+    font-size: 12px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+.link1:hover{
+    background-color: rgb(102, 20, 43);
+    padding: 10px 33px;
+}
